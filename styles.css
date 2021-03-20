@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: #bdbdbd;
     margin: 0;
 }
 
@@ -9,9 +9,9 @@ header {
 }
 
 div {
-
     box-sizing: border-box;
 }
+
 
 header h1 {
     margin: 0;
@@ -24,22 +24,27 @@ div.container {
 
 div.post{
     background-color: white;
+    margin-top: 10px;
 }
 
 div.post .post-header div:first-child{
-   display: inline block;
-   background: green;
-   width: 80%;
+    display: inline-block;
+    width: 80%;
+
 }
+
 div.post .post-header div:last-child{
-   display: inline block;
-   background: yellow;
-   width: 20%;
+    display: inline-block;
+    width: 20%;
+text-align: right;
+padding: 10px;
+color: gray;
 }
 
 div.post h2, div.post p{
-padding: 10px;
-}
+    padding: 10px;
+    margin: 0;
+} 
 
 div.post img {
 width: 100%;
